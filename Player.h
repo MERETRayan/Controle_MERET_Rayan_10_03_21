@@ -2,13 +2,13 @@
 using namespace std;
 
 class Player {
-        string name ;
+        string nom ;
         int score = 0 ;
         int moyenne = 0 ;
-        int nbGame = 0 ;
     public:
-        int scoreTot ();
-        int scoreMoy ();
+        int montrerScore();
+        int scoreTot (int);
+        int scoreMoy (int);
         Player();
-        Player(string name);
+        Player(string name , int score  ) : nom (name) , score (score)  {}
 };

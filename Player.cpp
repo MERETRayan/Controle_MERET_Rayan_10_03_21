@@ -2,14 +2,21 @@
 using namespace std;
 #include "Player.h"
 
-int scoreTot(int score, int newScore)
+int Player::scoreTot(int newScore)
 {
  score = score + newScore ;
  return score ;
 }
 
-int scoreMoy(int scoreMoy, int nbGame , int score)
+int Player::scoreMoy(int nbGame)
 {
- scoreMoy = score / nbGame;
- return scoreMoy ;
+ moyenne = score / nbGame;
+ return moyenne ;
 }
+
+int Player::montrerScore()
+{
+ cout << nom << " Total : " << score << " ScoreMoy : "<< moyenne << "\n";
+ return 0 ;
+}
+
