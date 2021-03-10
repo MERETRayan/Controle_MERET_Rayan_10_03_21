@@ -69,6 +69,7 @@ else {
         Joueur1.scoreTot(newscore);
         Joueur1.scoreMoy(nbGame1);
         Joueur1.montrerScore();
+        cout << "----------------------------------------------------------";
         musique = 0 ;
 
         if (nombreJoueur==2){
@@ -85,6 +86,7 @@ else {
             Joueur2.scoreTot(newscore);
             Joueur2.scoreMoy(nbGame2);
             Joueur2.montrerScore();
+            cout << "----------------------------------------------------------";
             musique = 0 ;
         }
         if (nombreJoueur==3){
@@ -100,6 +102,7 @@ else {
             Joueur3.scoreTot(newscore);
             Joueur3.scoreMoy(nbGame3);
             Joueur3.montrerScore();
+            cout << "----------------------------------------------------------";
             musique = 0 ;
         }
         if (nombreJoueur==4){
@@ -115,6 +118,7 @@ else {
             Joueur4.scoreTot(newscore);
             Joueur4.scoreMoy(nbGame4);
             Joueur4.montrerScore();
+            cout << "----------------------------------------------------------";
             musique = 0 ;
         }
     }
